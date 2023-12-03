@@ -18,71 +18,54 @@ const Skills = () => {
             </Row>
             <Row className='justify-content-center g-2 gap-3'>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                   <h2><IoLogoJavascript  className="icons "></IoLogoJavascript></h2>
                     <h2 className="ptitle text-center">JAVASCRIPT</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                   {/* <h2><SiReact  className="icons "></SiReact></h2> */}
                     <h2 className="ptitle text-center">REACT.JS</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    <h2><IoLogoNodejs  className="icons "></IoLogoNodejs></h2>
                     <h2 className="ptitle text-center">NODE.JS</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                   {/* <h2><SiReact  className="icons "></SiReact></h2> */}
                     <h2 className="ptitle text-center">REACT NATIVE</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiMongodb  className="icons "></SiMongodb></h2> */}
                     <h2 className="ptitle text-center">MONGO-DB</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiExpress  className="icons "></SiExpress></h2> */}
                     <h2 className="ptitle text-center">EXPRESS.JS</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiTypescript  className="icons "></SiTypescript></h2> */}
                     <h2 className="ptitle text-center">Typescript</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiRedux  className="icons "></SiRedux></h2> */}
                     <h2 className="ptitle text-center">REDUX</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiGraphql  className="icons "></SiGraphql></h2> */}
                     <h2 className="ptitle text-center">GraphQL</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiSequelize  className="icons "></SiSequelize></h2> */}
                     <h2 className="ptitle text-center">Sequelize</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                {/* <h2><SiFirebase  className="icons "></SiFirebase></h2> */}
                     <h2 className="ptitle text-center">FIREBASE</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                  {/* <h2><SiBootstrap  className="icons "></SiBootstrap></h2> */}
                     <h2 className="ptitle text-center">BOOTSTRAP</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiTailwindcss  className="icons "></SiTailwindcss></h2> */}
                     <h2 className="ptitle text-center">TAILWIND CSS</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    {/* <h2><SiMaterialui  className="icons "></SiMaterialui></h2> */}
                     <h2 className="ptitle text-center">MATERIAL UI</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    <h2><AiFillHtml5  className="icons "></AiFillHtml5></h2>
                    <h2 className="ptitle text-center">HTML</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    <h2><TiCss3  className="icons "></TiCss3></h2>
                     <h2 className="ptitle text-center">CSS</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
-                    <h2><TiCss3  className="icons "></TiCss3></h2>
                     <h2 className="ptitle text-center">SCSS</h2>
                 </Col>
             </Row>
