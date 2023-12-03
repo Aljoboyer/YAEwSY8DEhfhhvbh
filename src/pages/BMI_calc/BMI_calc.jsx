@@ -5,7 +5,8 @@ import Navbars from '../../components/navbar/navbar';
 const BMI_Calc = () => {
     const [bmiInputs, setBmiInputs] = useState({w: '', h: ''})
     const [errors, setErrors] = useState({wErr: '', hErr: ''})
-
+    const [totalBmi, setTotalBmi] = useState('');
+    
     function hasMultipleDecimals(value) {
         // Use a regular expression to check for multiple decimals
         const decimalPattern = /\./g;
@@ -34,9 +35,9 @@ const BMI_Calc = () => {
         setErrors({...errors ,hErr: 'Please enter valid values. height should be between 0.1 and 3.0.'})
     }
     else{
-      const bmiValue = weightValue / Math.pow(heightValue, 2);
-
-      console.log('bmi >>>> ',bmiValue.toFixed(1) )
+      const bmiValue = weightValue / (heightValue * heightValue);
+      setTotalBmi(bmiValue.toFixed(1))
+      console.log('bmi >>>> ', )
     } 
     }
 
@@ -45,6 +46,9 @@ const BMI_Calc = () => {
         <Navbars></Navbars>
         <div className="bmi_div">
             <h1>Calculate BMI</h1>
+
+            <h1>{totalBmi && `Your BMI is : ${totalBmi}`}</h1>
+
             <div className='input_div mt-4'>
                 <label className='fw-bold'>Weight (kg):</label>
                 <input 
