@@ -1,7 +1,6 @@
 {
-  "homepage": "https://aljoboyer.github.io/YAEwSY8DEhfhhvbh/",
   "name": "simple_reactapp",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
