@@ -17,10 +17,10 @@ const Myhome = () => {
                 </Col>
                 <Col className="" lg={12} md={12} sm={12}>
                
-                <h1 className="intro">Abdul</h1>
+                <h1 className="intro">Hi i am Abdul</h1>
                 
                 <h5 className="iam">I'm an independent creative Web & Mobile app developer From Bangladesh. I completed my Bsc Degree at July 2021</h5>
-                <a href={resume} target="blank" download><button className="detailsbtn  fs-5 ">HIRE ME</button></a> 
+                <a href={resume} target="blank" download><button className="detailsbtn  fs-5 ">DOWNLOAD RESUME</button></a> 
 
                 </Col>
 

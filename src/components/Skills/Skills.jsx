@@ -27,6 +27,9 @@ const Skills = () => {
                     <h2 className="ptitle text-center">NODE.JS</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
+                    <h2 className="ptitle text-center">Next.JS</h2>
+                </Col>
+                <Col className="pcol text-center " lg={3} md={4} sm={12}>
                     <h2 className="ptitle text-center">REACT NATIVE</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
@@ -46,6 +49,15 @@ const Skills = () => {
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
                     <h2 className="ptitle text-center">Sequelize</h2>
+                </Col>
+                <Col className="pcol text-center " lg={3} md={4} sm={12}>
+                    <h2 className="ptitle text-center">SQL</h2>
+                </Col>
+                <Col className="pcol text-center " lg={3} md={4} sm={12}>
+                    <h2 className="ptitle text-center">MySql</h2>
+                </Col>
+                <Col className="pcol text-center " lg={3} md={4} sm={12}>
+                    <h2 className="ptitle text-center">Mongoose</h2>
                 </Col>
                 <Col className="pcol text-center " lg={3} md={4} sm={12}>
                     <h2 className="ptitle text-center">FIREBASE</h2>
